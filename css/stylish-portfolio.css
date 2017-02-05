@@ -255,3 +255,14 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+@media (min-width: 768px) {
+    .dl-horizontal dt {
+        width:280px;
+        white-space: normal;
+        margin-bottom: 5px;
+    }
+    .dl-horizontal dd {
+        margin-left:300px;
+    }
+}
