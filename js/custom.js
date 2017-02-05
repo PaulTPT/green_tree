@@ -89,7 +89,7 @@ $(function () {
                 center: location,
                 //ajouter formule pour le radius
                 radius: 150,
-                name: data["intersection"][i]["name"]+ " " +Math.round(data["intersection"][i]["arbres_necessaires"])+"  trees need to be planted to compensate."
+                name: data["intersection"][i]["name"]+ " " +Math.round(data["intersection"][i]["arbres_necessaires"])+" arbres devraient être plantés pour atteindre l'équilibre carbone"
             })
         
             // console.log(data["intersection"][i]["diff"]);
