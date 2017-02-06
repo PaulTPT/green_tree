@@ -117,7 +117,7 @@
                         <dt>Position des arbres</dt>
                         <dd>À partir des données ouvertes de la ville</dd>
 
-                        <dt>Absorbtion de CO2</dt>
+                        <dt>Absorption de CO2</dt>
                         <dd>Calculée pour chaque arbre selon sa taille et son espèce</dd>
 
                         <dt>Nombre d'autos</dt>
@@ -170,5 +170,16 @@
     <script src="js/result.js"></script>
 
 </body>
+
+<script type="text/javascript">   
+    $(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
+
+</script>
 
 </html>
